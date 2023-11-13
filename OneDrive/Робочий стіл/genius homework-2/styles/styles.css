@@ -1,0 +1,173 @@
+/* Fonts */
+/* roboto */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-700.ttf") format("truetype");
+}
+
+/* play */
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-700.ttf") format("truetype");
+}
+
+:root {
+  --beauty-landing-1: #2b7fff;
+  --beauty-landing-2: #011c44;
+  --beauty-landing-3: #4a4a4a;
+  --beauty-landing-4: #fff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--beauty-landing-2);
+}
+
+.logo {
+  color: var(--beauty-landing-1);
+  font-family: Play;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Link */
+.link {
+  line-height: normal;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--beauty-landing-1);
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.hero-title {
+  color: var(--beauty-landing-1);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.button {
+  font-size: 18px;
+  color: var(--beauty-landing-4);
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 32px;
+  border: 2px solid #2b7fff;
+  background-color: var(--beauty-landing-1);
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--beauty-landing-2);
+  cursor: pointer;
+}
+
+.free-consultation {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--beauty-landing-3);
+}
+
+/*Main */
+.section-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.accent {
+  color: var(--beauty-landing-1);
+}
+
+.accent-zone {
+  text-transform: capitalize;
+  color: var(--beauty-landing-1);
+}
+
+.accent-paragraf {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.advantages-paragraf {
+  color: #000;
+  line-height: 1.3;
+}
+
+.about-us-paragraf {
+  font-size: 22px;
+  line-height: 1.72;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--beauty-landing-2);
+  font-size: 16px;
+}
+
+.footer-link,
+.address {
+  font-size: 16px;
+  color: #fff;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.address:hover {
+  color: var(--beauty-landing-1);
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+}
